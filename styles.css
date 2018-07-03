@@ -2,9 +2,57 @@
 #box-container{
   display: grid;
   grid-template-columns: repeat(7, 1fr);
-  grid-template-rows: reapeat(5, 1fr);
-  background: pink;
+  grid-template-rows: repeat(9, minmax(100px, auto));
+  background: #809fff;
+  font-family: 'Muli', sans-serif;
 }
-.celcius{
+.title{
+  grid-column: 2 / 7;
+  grid-row: 2 / 3;
+  font-size: 64px;
+  text-align: center;
+  opacity: 0.7;
+}
+.cel{
+  grid-column: 4 / 5;
+  grid-row: 4 / 5;
+  text-align: center;
+  font-size: 50px;
+  padding: 20px;
+  color: #f9e6ff;
+}
+.fah{
+  grid-column: 3 / 4;
+  grid-row: 4 / 5;
+  text-align: center;
+  font-size: 50px;
+  padding: 20px;
+    color: #f9e6ff;
+}
+.kel{
+  grid-column: 5 / 6;
+  grid-row: 4 / 5;
+  text-align: center;
+  font-size: 50px;
+  padding: 20px;
+    color: #f9e6ff;
+}
+input{
+  text-align: center;
+  font-size: 20px;
+  padding: 20px;
+  width: 1fr;
+  background: #009999;
+  color:inherit;
+  border: none;
+  border-radius: 30px;
+}
+input:focus{
+  outline: none;
+}
 
+@media screen and (max-width: 1000px){
+  .cel, .fah, .kel{
+    display: block;
+  }
 }
