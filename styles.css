@@ -52,7 +52,20 @@ input:focus{
 }
 
 @media screen and (max-width: 1000px){
-  .cel, .fah, .kel{
-    display: block;
+  .title{
+    font-size: 30px;
+  }
+
+  .fah{
+    grid-column: 4 / 5;
+    grid-row: 4 / 5;
+  }
+  .cel{
+    grid-column: 4 / 5;
+    grid-row: 5 / 6;
+  }
+  .kel{
+    grid-column: 4 / 5;
+    grid-row: 6 / 7;
   }
 }
