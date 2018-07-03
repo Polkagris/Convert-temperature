@@ -5,3 +5,6 @@
   grid-template-rows: reapeat(5, 1fr);
   background: pink;
 }
+.celcius{
+  font-size: 50px;
+}
