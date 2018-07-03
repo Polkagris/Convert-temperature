@@ -1,1 +1,7 @@
-ECHO is on.
+
+#box-container{
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  grid-template-rows: reapeat(5, 1fr);
+  background: pink;
+}

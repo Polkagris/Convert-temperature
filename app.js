@@ -1,1 +1,2 @@
-ECHO is on.
+
+console.log("gello world!");
